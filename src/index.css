@@ -75,12 +75,14 @@ body {
   padding-top: 2%;
   border: 1px solid #fff;
   text-align: center;
+  display: flex;
 }
 
 .box-footer__paragraph {
   color: #fff;
   font-weight: bold;
   margin-top: revert;
+  overflow: hidden;
 }
 
 @media (max-width: 768px) {
